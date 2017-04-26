@@ -1,6 +1,6 @@
 # PJL-Client
 
-Usage: python pjlclient.py <IP> <dir|read> <path>
+Usage: python pjlclient.py <IP> <dir|read> <path/file>
 
 Examples:
 
