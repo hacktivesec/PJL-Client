@@ -12,7 +12,7 @@ def conn(string,host):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((host, 9100))
         s.send(string)
-        time.sleep(2)
+        time.sleep(5)
         print s.recv(30720)
     except:
             print 'Socket error'
